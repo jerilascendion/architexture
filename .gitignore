@@ -1,0 +1,51 @@
+# Java specific
+*.class                     # Compiled class files
+*.log                       # Log files
+*.jar                       # Java Archive files
+*.war                       # Web Application Archive files
+*.nar                       # Native Archive files
+*.ear                       # Enterprise Archive files
+*.zip                       # Zip files
+*.tar.gz                    # Tarball files
+hs_err_pid*                 # HotSpot error logs
+
+# Android specific
+*.apk                       # Android Package files
+*.ap_                       # Android Package files (alternate extension)
+*.dex                       # Dalvik Executable files
+*.hprof                     # Heap dump files
+
+# Gradle files
+.gradle/                    # Gradle cache directory
+build/                      # Build output directory
+app/build/                 # Build output for the app module
+
+# Local configuration files
+local.properties            # Local configuration file (sdk path, etc.)
+.idea/                      # IntelliJ IDEA project files
+*.iml                       # IntelliJ IDEA module files
+
+# Keystore files (uncomment if you do not want to check these in)
+# *.jks                     # Java KeyStore files
+# *.keystore                # Keystore files
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json        # Firebase configuration file
+
+# ProGuard mapping file (if using ProGuard)
+mapping.txt                # ProGuard mapping file
+
+# Miscellaneous
+*.DS_Store                  # macOS Finder file
+*.swp                       # Swap files from vim or similar editors
+
+# Android Studio generated files and folders
+captures/                   # Screenshot captures from Android Studio
+.externalNativeBuild/       # External native build folder generated in Android Studio 2.2 and later
+
+# Log/OS Files
+*.log                       # Log files from the OS or application
+
+# Temporary Files
+tmp/                        # Temporary directory for temporary files
+
